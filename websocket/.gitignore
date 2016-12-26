@@ -1,4 +1,5 @@
 .project
+*.bak
 *.class
 /JAVA/
 /target/
