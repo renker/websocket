@@ -45,7 +45,7 @@
 	
 	function btnEvent(){
 		$("#startBtn").click(function(){
-			ws = new SockJS(wsUri);
+			ws = new SockJS(wsUri,null,{transports:"xhr-polling"});
 			
 			ws.onopen=function(evn){
 				log("[----------------开启连接----------------]");

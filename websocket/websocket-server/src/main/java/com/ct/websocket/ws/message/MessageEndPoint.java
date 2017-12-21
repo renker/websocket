@@ -52,6 +52,7 @@ public class MessageEndPoint {
 				item.getBasicRemote().sendObject(msg);
 			}
 		}
+		
 	}
 	
 }
